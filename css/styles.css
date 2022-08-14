@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    animation: ani 2s alternate;
+}
+@keyframes ani {
+    0% {
+        transform: translateY(-500px);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 40px 40px;
+}
+
+.header h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(38, 50, 56, 0.8);
+}
+
+.header select{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgba(31, 46, 53, 0.8);
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+}
+
+.header-h img {
+    padding: 10px 10px;
+}
+.work h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1F2E35;
+    padding-bottom: 15px;
+}
+
+.work h2    {
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: crimson;
+    padding-bottom: 15px;
+}
+
+.work p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #30444E;
+    padding-bottom: 20px;
+}
+
+.work button {
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    color: #1F2E35;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.welcome h1  {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+    padding-bottom: 15px;
+}
+
+.welcome p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+    padding-bottom: 20px;
+}
+
+.ti {
+    color: #EE4248;
+}
+
+.see {
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+    padding-bottom: 50px;
+    padding-left: 450px;
+}
+.about-block h2  {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+    padding-top: 15px;
+}
+
+.about-block p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+    padding-top: 10px;
+}
+
+.about-block button {
+    width: 119px;
+    height: 42px;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-items {
+    width: 1126px;
+    height: 459px;
+    background: #FFFFFF;
+}
+
+.general {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.general h1  {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000;
+    padding-top: 15px;
+}
+.general p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #263238;
+    padding-top: 20px;
+}
+
+#footer {
+    width: 1440px;
+    height: 64px;
+    background: #EE4248;
+    padding-bottom: 20px;
+}
+.footer h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 350px;
+    padding-top: 30px;
+}
+
